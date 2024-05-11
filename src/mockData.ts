@@ -5,8 +5,8 @@ export const mockProjects: IProject[] = [
     customer: "PFO",
     name: "HM 01/24.01",
     id: "1",
-    languages: { isGerman: true, isFrench: true, isItalian: false },
-    quantities: { german: 60000, french: 20000, italian: 0 },
+    languages: { isGerman: true, isFrench: true, isItalian: true },
+    quantities: { german: 60000, french: 20000, italian: 10000 },
     package: {
       isOuterenvelope: true,
       isLetter: true,
@@ -15,7 +15,7 @@ export const mockProjects: IProject[] = [
       isCards: false,
     },
     lettershopId: "M+C",
-    shippingProvider: { isPost: true, isQuickmail: false },
+    shippingProvider: { isPost: true, isQuickmail: true },
     shippingDate: 1715356226785,
   },
   {

@@ -31,4 +31,4 @@ const projectSchema = new Schema({
   quantities: {
     type: Number,
   },
-});
+);
