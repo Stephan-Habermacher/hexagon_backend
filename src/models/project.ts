@@ -11,7 +11,6 @@ export interface IProjectInputs {
     isOuterenvelope: boolean;
     isLetter: boolean;
     isFlyer: boolean;
-    isBooklet: boolean;
     isCards: boolean;
   };
   lettershopId: string;

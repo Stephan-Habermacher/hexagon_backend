@@ -1,4 +1,4 @@
-import { IProject } from "./types";
+import { IProject } from "./models/project";
 
 export const mockProjects: IProject[] = [
   {
@@ -11,7 +11,6 @@ export const mockProjects: IProject[] = [
       isOuterenvelope: true,
       isLetter: true,
       isFlyer: true,
-      isBooklet: false,
       isCards: false,
     },
     lettershopId: "M+C",
@@ -28,7 +27,6 @@ export const mockProjects: IProject[] = [
       isOuterenvelope: true,
       isLetter: true,
       isFlyer: true,
-      isBooklet: false,
       isCards: false,
     },
     lettershopId: "M+C",
@@ -45,7 +43,6 @@ export const mockProjects: IProject[] = [
       isOuterenvelope: true,
       isLetter: true,
       isFlyer: true,
-      isBooklet: false,
       isCards: false,
     },
     lettershopId: "M+C",
