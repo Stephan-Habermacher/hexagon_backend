@@ -15,5 +15,5 @@ export interface IProjectInputs {
   };
   lettershopId: string;
   shippingProvider: { isPost: boolean; isQuickmail: boolean };
-  shippingDate: number;
+  shippingDate: string;
 }

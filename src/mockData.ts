@@ -15,7 +15,7 @@ export const mockProjects: IProject[] = [
     },
     lettershopId: "M+C",
     shippingProvider: { isPost: true, isQuickmail: true },
-    shippingDate: 1715356226785,
+    shippingDate: "2024-04-15",
   },
   {
     customer: "PSP",
@@ -31,7 +31,7 @@ export const mockProjects: IProject[] = [
     },
     lettershopId: "M+C",
     shippingProvider: { isPost: true, isQuickmail: false },
-    shippingDate: 1715356226785,
+    shippingDate: "2024-04-15",
   },
   {
     customer: "SDS",
@@ -47,6 +47,6 @@ export const mockProjects: IProject[] = [
     },
     lettershopId: "M+C",
     shippingProvider: { isPost: true, isQuickmail: false },
-    shippingDate: 1715356226785,
+    shippingDate: "2024-04-15",
   },
 ];
