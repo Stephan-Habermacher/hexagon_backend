@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
-import { Projects } from "../models/projects";
+import { mockProjects } from "../mockData";
 
 export const getProjects = (req: Request, res: Response) => {
-  if (Projects) {
-    res.json(Projects);
+  if (mockProjects) {
+    res.json(mockProjects);
   } else {
     res.status(404).send({ message: "No Projects found" });
   }

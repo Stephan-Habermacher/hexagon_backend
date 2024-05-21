@@ -1,10 +1,9 @@
 import { Request, Response } from "express";
-import { Project } from "../models/project";
+import { mockProjects } from "../mockData";
 
 export const getProject = (req: Request, res: Response) => {
   const { id } = req.params;
-  const project = Project.findById(id);
-
+  const project = mockProjects.find((p) => p.id === id);
   if (project) {
     res.json(project);
   } else {
@@ -13,8 +12,7 @@ export const getProject = (req: Request, res: Response) => {
 };
 
 export const postProject = (req: Request, res: Response) => {
-  const newProject = new Project(req.body);
-  const savedProject = newProject.save();
-
-  res.status(201).json(savedProject);
+  const newProject = req.body;
+  mockProjects.push(newProject);
+  res.status(201).json(newProject);
 };
