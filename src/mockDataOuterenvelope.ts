@@ -13,6 +13,7 @@ export const mockDataOuterenvelope: IOuterenvelope[] = [
     preprint: "Druckdaten werden von uns geliefert",
     postprint: "abpalettieren",
     price: 3025,
+    suppliers: ["1", "2"],
   },
   {
     id: "2",
@@ -26,6 +27,7 @@ export const mockDataOuterenvelope: IOuterenvelope[] = [
     preprint: "Druckdaten werden von uns geliefert",
     postprint: "abpalettieren",
     price: 3025,
+    suppliers: ["1", "2"],
   },
   {
     id: "3",
@@ -39,6 +41,7 @@ export const mockDataOuterenvelope: IOuterenvelope[] = [
     preprint: "Druckdaten werden von uns geliefert",
     postprint: "abpalettieren",
     price: 4660,
+    suppliers: ["2"],
   },
   {
     id: "4",
@@ -52,6 +55,7 @@ export const mockDataOuterenvelope: IOuterenvelope[] = [
     preprint: "Druckdaten werden von uns geliefert",
     postprint: "abpalettieren",
     price: 2895,
+    suppliers: ["2"],
   },
   {
     id: "5",
@@ -65,6 +69,7 @@ export const mockDataOuterenvelope: IOuterenvelope[] = [
     preprint: "Druckdaten werden von uns geliefert",
     postprint: "abpalettieren",
     price: 3375,
+    suppliers: ["2"],
   },
   {
     id: "6",
@@ -78,6 +83,7 @@ export const mockDataOuterenvelope: IOuterenvelope[] = [
     preprint: "Druckdaten werden von uns geliefert",
     postprint: "abpalettieren",
     price: 3375,
+    suppliers: ["2"],
   },
   {
     id: "7",
@@ -91,5 +97,6 @@ export const mockDataOuterenvelope: IOuterenvelope[] = [
     preprint: "Druckdaten werden von uns geliefert",
     postprint: "abpalettieren",
     price: 4700,
+    suppliers: ["2"],
   },
 ];

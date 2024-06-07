@@ -10,4 +10,5 @@ export interface IOuterenvelope {
   preprint: string;
   postprint: string;
   price: number;
+  suppliers: string[];
 }
