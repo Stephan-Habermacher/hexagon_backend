@@ -13,6 +13,9 @@ export const getProject = (req: Request, res: Response) => {
 
 export const postProject = (req: Request, res: Response) => {
   const newProject = req.body;
-  mockProjects.push(newProject);
+  const highestId = mockProjects.sort((a, b) => Number(b.id) - Number(a.id))[0]
+    .id;
+  const newId = Number(highestId) + 1;
+  mockProjects.push({ ...newProject, id: String(newId) });
   res.status(201).json(newProject);
 };
