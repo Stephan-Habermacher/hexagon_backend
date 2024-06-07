@@ -73,24 +73,24 @@ export const mockDataSupplier: ISupplier[] = [
       cards: false,
     },
   },
-  {
-    id: "5",
-    supplierName: "Heller Druck AG",
-    supplierNameShort: "Heller",
-    supplierAdress: {
-      streetName: "Sinserstrasse",
-      streetNumber: "2",
-      country: "CH",
-      zipCode: 6330,
-      city: "Cham ZG",
-    },
-    supplierProducts: {
-      outerenvelope: false,
-      letter: false,
-      flyer: true,
-      cards: true,
-    },
-  },
+  // {
+  //   id: "5",
+  //   supplierName: "Heller Druck AG",
+  //   supplierNameShort: "Heller",
+  //   supplierAdress: {
+  //     streetName: "Sinserstrasse",
+  //     streetNumber: "2",
+  //     country: "CH",
+  //     zipCode: 6330,
+  //     city: "Cham ZG",
+  //   },
+  //   supplierProducts: {
+  //     outerenvelope: false,
+  //     letter: false,
+  //     flyer: true,
+  //     cards: true,
+  //   },
+  // },
   {
     id: "6",
     supplierName: "Wolf Druck AG",

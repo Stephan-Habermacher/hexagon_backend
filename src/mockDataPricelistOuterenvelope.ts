@@ -46,6 +46,17 @@ export const mockDataPricelistOuterenvelope: IPricelistOuterenvelopes[] = [
     ],
   },
   {
+    supplierId: "1",
+    product: "outerenvelope",
+    print: "4/4-farbig Euroskala",
+    sortchange: 0,
+    price: [
+      { threshold: 1, price: 8500 },
+      { threshold: 5000, price: 7500 },
+      { threshold: 10000, price: 6000 },
+    ],
+  },
+  {
     supplierId: "2",
     product: "outerenvelope",
     print: "1/0-farbig Euroskala",
